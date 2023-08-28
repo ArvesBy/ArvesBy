@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# python 3 Arves v1
-# By Arves legal
-# only for lega
+# python 3.3.2 Arves Dos Script v.1
+# by Arves
+# only arves purpose
 
 
 from queue import Queue
@@ -75,7 +75,7 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer Dos Script v.1 http://www.canyalcin.com/
+	print (''' \033[92m	Arves dos Script v.1 http://b-y.000.pe/
 	It is the end user's responsibility to obey all applicable laws.
 	It is just for server testing script. Your ip is visible. \n
 	usage : python3 hammer.py [-s] [-p] [-t]
@@ -161,3 +161,4 @@ if __name__ == '__main__':
 			w.put(item)
 		q.join()
 		w.join()
+				     
