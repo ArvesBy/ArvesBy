@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# python 3 Arves v1
-# By Arves legal
-# only for lega
+# python 3.3.2 Arves Dos Script v.1
+# by Arves
+# only for legal purpose
 
 
 from queue import Queue
@@ -75,9 +75,10 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Dostlar burda siteye ddos atma 
- sitenin bazı bilgilerini görme yarar. Arves. \n
-	usage : python3 arves.py [-s] [-p] [-t]
+	print (''' \033[92m	Arves dos Script v.1 http://b-y.000.pe/
+	It is the end user's responsibility to obey all applicable laws.
+	It is just for server testing script. Your ip is visible. \n
+	usage : python3 hammer.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
@@ -114,9 +115,9 @@ def get_parameters():
 		thr = opts.turbo
 
 
-# reading headers
+# reading arves
 global data
-headers = open("headers.txt", "r")
+headers = open("arves.txt", "r")
 data = headers.read()
 headers.close()
 #task queue are q,w
@@ -160,3 +161,4 @@ if __name__ == '__main__':
 			w.put(item)
 		q.join()
 		w.join()
+			
