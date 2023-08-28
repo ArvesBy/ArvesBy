@@ -75,10 +75,9 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer Dos Script v.1 http://www.canyalcin.com/
-	It is the end user's responsibility to obey all applicable laws.
-	It is just for server testing script. Your ip is visible. \n
-	usage : python3 hammer.py [-s] [-p] [-t]
+	print (''' \033[92m	Dostlar burda siteye ddos atma 
+ sitenin bazı bilgilerini görme yarar. Arves. \n
+	usage : python3 arves.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
